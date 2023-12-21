@@ -49,24 +49,36 @@ const Services = () => {
                 </motion.div>
                 <motion.div className="listContainer" variants={variants}>
                     <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-                        <h2>Branding</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam cupiditate officiis neque reiciendis labore tempore corporis sit rem inventore debitis magni esse, officia perspiciatis, vero aliquam nemo facere expedita consequatur. Culpa consectetur odio consequuntur eveniet placeat provident</p>
-                        <button>Go</button>
+                        <h2>Web Development</h2><br/>
+                        <p>Elevate your online presence with dynamic and responsive websites tailored to your needs. I specialize in crafting robust and user-friendly web solutions, ensuring a seamless digital experience for your audience.</p><br/>
+                        <a href="#Portfolio">
+                            <motion.button whileHover={{backgroundColor:"rgb(255, 183, 49)"}}>Go</motion.button>
+                        </a>
+                        <br/>
                     </motion.div>
                     <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-                        <h2>Branding</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam cupiditate officiis neque reiciendis labore tempore corporis sit rem inventore debitis magni esse, officia perspiciatis, vero aliquam nemo facere expedita consequatur. Culpa consectetur odio consequuntur eveniet placeat provident</p>
-                        <button>Go</button>
+                        <h2>UI/UX Design</h2><br/>
+                        <p>Transform ideas into visually stunning and intuitive user interfaces. My expertise in UI/UX design focuses on creating engaging and user-centric experiences, combining aesthetics with functionality for a lasting impact.</p><br/>
+                        <a href="https://www.figma.com/file/JzeOKjJWcjN3DhZjljWG33/Travel-Website-Template-(Community)?type=design&node-id=1-3&mode=design&t=k6PLNyAUNyVcIelv-0" target="_blank">
+                            <motion.button whileHover={{backgroundColor:"rgb(255, 183, 49)"}}>Go</motion.button>
+                        </a>
+                        <br/>
                     </motion.div>
                     <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-                        <h2>Branding</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam cupiditate officiis neque reiciendis labore tempore corporis sit rem inventore debitis magni esse, officia perspiciatis, vero aliquam nemo facere expedita consequatur. Culpa consectetur odio consequuntur eveniet placeat provident</p>
-                        <button>Go</button>
+                        <h2>Graphic Design</h2><br/>
+                        <p>From captivating visuals to eye-catching promotional materials, I bring creativity to life. My graphic design services cover a spectrum of needs, delivering compelling and brand-aligned designs that leave a memorable impression.</p><br/>
+                        <a href="https://drive.google.com/drive/folders/1xFSEYqL9tbvAKKlu8FbPVcmdlTIrTt4X?usp=drive_link" target="_blank">
+                            <motion.button whileHover={{backgroundColor:"rgb(255, 183, 49)"}}>Go</motion.button>
+                        </a>
+                        <br/>
                     </motion.div>
                     <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-                        <h2>Branding</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam cupiditate officiis neque reiciendis labore tempore corporis sit rem inventore debitis magni esse, officia perspiciatis, vero aliquam nemo facere expedita consequatur. Culpa consectetur odio consequuntur eveniet placeat provident</p>
-                        <button>Go</button>
+                        <h2>Logo Design</h2><br/>
+                        <p>Unleash the power of a distinctive brand identity with a unique logo. I craft logos that reflect your brand essence, combining creativity and strategic thinking to ensure your business stands out in a crowded digital landscape.</p><br/>
+                        <a href="https://drive.google.com/drive/folders/1dTsVA6yYhoID-bjcrnWWukLuyZDFkMja?usp=sharing" target="_blank">
+                            <motion.button whileHover={{backgroundColor:"rgb(255, 183, 49)"}}>Go</motion.button>
+                        </a>
+                        <br/>
                     </motion.div>
                 </motion.div>
             </motion.div>

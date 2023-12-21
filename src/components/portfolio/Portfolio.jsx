@@ -7,25 +7,29 @@ const items =[
         id:1,
         title:"Realtime Code-Editor",
         img:"https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus tenetur provident ratione facilis velit quisquam",
+        desc:"The Web Application is based on React and WebSocket which enables it's users to code collaboratively on Realtime updates.",
+        link:"https://realtime-editor-f1s2oryg9-shubham-gargs-projects-8d124678.vercel.app",
     },
     {
         id:2,
         title:"Urban Explorer",
         img:"https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus tenetur provident ratione facilis velit quisquam",
+        desc:"This core Front-End Web Application hepls the user explore some Hidden Gems of their city by providing them essential details.",
+        link:"",
     },
     {
         id:3,
         title:"Netflix Clone",
         img:"https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus tenetur provident ratione facilis velit quisquam",
+        desc:"Glide through a user-friendly interface crafted with HTML, CSS, JavaScript.",
+        link:"",
     },
     {
         id:4,
         title:"To-Do Web App",
         img:"https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&w=600",
-        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus tenetur provident ratione facilis velit quisquam",
+        desc:"Ditch the sticky notes: Organize tasks effortlessly with my intuitive to-do app.",
+        link:"",
     },
 ];
 
@@ -50,7 +54,9 @@ const Single = ({item}) =>{
                     <motion.div className="textContainer" style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>See Demo</button>
+                        <a href={item.link} target="_blank">
+                            <button>See Demo</button>
+                        </a>
                     </motion.div>
                 </div>
             </div>
