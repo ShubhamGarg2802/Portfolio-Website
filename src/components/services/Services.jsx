@@ -28,7 +28,7 @@ const Services = () => {
     return (
         
         <div className="container">
-            <motion.div className="services" variants={variants} initial="initial" ref={ref} >
+            <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={"animate"}>
                 <motion.div className="textContainer" variants={variants}>
                     <p>"Code is like humor. <br />When you have to explain it, it's bad."</p>
                     <hr />
