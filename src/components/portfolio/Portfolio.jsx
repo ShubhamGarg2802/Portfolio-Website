@@ -15,7 +15,7 @@ const items =[
         title:"Urban Explorer",
         img:"https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=600",
         desc:"This core Front-End Web Application hepls the user explore some Hidden Gems of their city by providing them essential details.",
-        link:"",
+        link:"https://www.figma.com/file/JzeOKjJWcjN3DhZjljWG33/Travel-Website-Template-(Community)?type=design&node-id=1-3&mode=design&t=rt45bG7osbawy6Vf-0",
     },
     {
         id:3,
@@ -29,7 +29,7 @@ const items =[
         title:"To-Do Web App",
         img:"https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&w=600",
         desc:"Ditch the sticky notes: Organize tasks effortlessly with my intuitive to-do app.",
-        link:"",
+        link:"https://to-do-bywyhwojl-shubham-gargs-projects-8d124678.vercel.app/",
     },
 ];
 

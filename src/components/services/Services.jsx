@@ -4,8 +4,8 @@ import { motion, useInView } from "framer-motion"
 
 const variants = {
     initial: {
-        x: -500,
-        y: 100,
+        x: 0,
+        y: 0,
         opacity: 0,
     },
     animate: {
@@ -28,7 +28,7 @@ const Services = () => {
     return (
         
         <div className="container">
-            <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={isInView && "animate"}>
+            <motion.div className="services">
                 <motion.div className="textContainer" variants={variants}>
                     <p>"Code is like humor. <br />When you have to explain it, it's bad."</p>
                     <hr />
